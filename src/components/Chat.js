@@ -10,7 +10,7 @@ const Chat = (props) =>{
   const classes = isQuestion ? "p-chat__row" : "p-chat__reverse"
 
   return (
-    <ListItem alignItems={classes}>
+    <ListItem className={classes}>
         <ListItemAvatar>
           {isQuestion ? (
             <Avatar alt="Remy Sharp" src={man} />
