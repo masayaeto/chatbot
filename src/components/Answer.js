@@ -18,7 +18,6 @@ const useStyles = makeStyles({
 
 const Answer = (props) => {
   const classes = useStyles();
-  console.log("Answer",classes.button)
   return(
     <Button className={classes.button} variant="outlined" onClick={() => props.select(props.content, props.nextId)}>
       {props.content}
